@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background: -webkit-linear-gradient(left, #335a66, #4b48b1);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background: -webkit-linear-gradient(left, #00c3ff, #d900ff);
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+.h1{
+    margin-left: 12%;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.div{
+    align-content: center;
+    background-color: #c3afaf;
+    margin-top: 3em;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 2em;
+    padding: 1em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.row{
+    display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;
+}
+
+.seat {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .available {
+    background-color: #aaffaa;
+  }
+  
+  .unavailable {
+    background-color: #ffaaaa;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 16px;
+}
+
+input[type="date"],
+input[type="time"],
+select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: -webkit-linear-gradient(left, #4599b2, #4842fa);
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.foot{
+    text-align: center;
+}
